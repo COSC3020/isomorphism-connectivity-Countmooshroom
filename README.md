@@ -13,11 +13,15 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 ## Answer
 
-Let's assume we have two graphs A and B that are isomorphic based on the definition above.
+Using list representation:
 
-If the graphs are not completely connected, there must be some edge $w = (u,v) \notin E_1$.  This is possible since it does not contradict the definition of isomorphism.
+Let graph $A = [ [1, 2], [2], [0, 1] ]$
 
-Since the graphs are isomorphic, there must be a related edge $x = (f(u),f(v)) \notin E_2$.
+Let graph $B = [ [1, 2], [2], [0, 1] ]$
 
-Since there are no contradictions here, it is possible to have two isomorphic graphs that are not completely connected.
+Based on the definition of isomorphism above, graphs $A$ and $B$ are isomorphic.
+
+Both graphs are lacking an edge from node 1 to node 0, so they are not completely connected.
+
+Therefore, if two graphs $A$ and $B$ are isomorphic, they do not have to be completely connected.
 
